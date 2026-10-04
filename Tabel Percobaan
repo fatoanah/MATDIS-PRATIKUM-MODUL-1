@@ -1,0 +1,71 @@
+## Tabel Percobaan
+
+## Case 1 — Masuk Perpustakaan (AND)
+
+| Punya Kartu | Perpustakaan Buka | Hasil                    |
+| True        | True              | Boleh masuk perpustakaan |
+| True        | False             | Tidak boleh masuk        |
+| False       | True              | Tidak boleh masuk        |
+| False       | False             | Tidak boleh masuk        |
+
+## Case 2 — Mengikuti Ujian (AND)
+
+| Sudah Daftar | Sudah Bayar | Hasil                       |
+| True         | True        | Boleh mengikuti ujian       |
+| True         | False       | Tidak boleh mengikuti ujian |
+| False        | True        | Tidak boleh mengikuti ujian |
+| False        | False       | Tidak boleh mengikuti ujian |
+
+## Case 3 — Meminjam Laptop (AND)
+
+| Mahasiswa | Kartu Ada | Hasil |
+|---|---|---|
+| True | True | Laptop boleh dipinjam |
+| True | False | Laptop tidak boleh dipinjam |
+| False | True | Laptop tidak boleh dipinjam |
+| False | False | Laptop tidak boleh dipinjam |
+
+### Case 4 — Memilih Transportasi (OR)
+
+| Naik Motor | Naik Bus | Hasil |
+|---|---|---|
+| True | True | Bisa pergi ke kampus |
+| True | False | Bisa pergi ke kampus |
+| False | True | Bisa pergi ke kampus |
+| False | False | Tidak bisa pergi |
+
+### Case 5 — Membayar Makanan (OR)
+
+| Uang Tunai | Saldo QRIS | Hasil |
+|---|---|---|
+| True | True | Bisa membeli makanan |
+| True | False | Bisa membeli makanan |
+| False | True | Bisa membeli makanan |
+| False | False | Tidak bisa membeli makanan |
+
+### Case 6 — Menghubungi Teman (OR)
+
+| Ada Pulsa | Ada WiFi | Hasil |
+|---|---|---|
+| True | True | Bisa menghubungi teman |
+| True | False | Bisa menghubungi teman |
+| False | True | Bisa menghubungi teman |
+| False | False | Tidak bisa menghubungi teman |
+
+### Case 7 — Memilih Minuman (XOR)
+
+| Teh | Kopi | Hasil |
+|---|---|---|
+| True | True | Pilihan tidak sesuai |
+| True | False | Memilih satu minuman |
+| False | True | Memilih satu minuman |
+| False | False | Pilihan tidak sesuai |
+
+### Case 8 — Memilih Kendaraan (XOR)
+
+| Motor | Sepeda | Hasil |
+|---|---|---|
+| True | True | Harus memilih salah satu |
+| True | False | Memilih satu kendaraan |
+| False | True | Memilih satu kendaraan |
+| False | False | Harus memilih salah satu |
