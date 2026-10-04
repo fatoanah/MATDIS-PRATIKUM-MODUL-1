@@ -19,7 +19,6 @@
 ## Case 3 — Meminjam Laptop (AND)
 
 | Mahasiswa | Kartu Ada | Hasil |
-|---|---|---|
 | True | True | Laptop boleh dipinjam |
 | True | False | Laptop tidak boleh dipinjam |
 | False | True | Laptop tidak boleh dipinjam |
