@@ -25,6 +25,6 @@ logika Boolean menggunakan operator AND, OR, dan XOR dalam berbagai kondisi.
 
 ## Alur Materi
 Bolean
--AND
--OR
--XOR
+- AND
+- OR
+- XOR
