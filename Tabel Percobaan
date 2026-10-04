@@ -18,16 +18,15 @@
 
 ## Case 3 — Meminjam Laptop (AND)
 
-| Mahasiswa | Kartu Ada | Hasil |
-| True | True | Laptop boleh dipinjam |
-| True | False | Laptop tidak boleh dipinjam |
-| False | True | Laptop tidak boleh dipinjam |
-| False | False | Laptop tidak boleh dipinjam |
+| Mahasiswa | Kartu Ada | Hasil                       |
+| True      | True      | Laptop boleh dipinjam       |
+| True      | False     | Laptop tidak boleh dipinjam |
+| False     | True      | Laptop tidak boleh dipinjam |
+| False     | False     | Laptop tidak boleh dipinjam |
 
 ### Case 4 — Memilih Transportasi (OR)
 
 | Naik Motor | Naik Bus | Hasil |
-|---|---|---|
 | True | True | Bisa pergi ke kampus |
 | True | False | Bisa pergi ke kampus |
 | False | True | Bisa pergi ke kampus |
