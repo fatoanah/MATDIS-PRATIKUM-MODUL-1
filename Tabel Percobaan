@@ -24,46 +24,42 @@
 | False     | True      | Laptop tidak boleh dipinjam |
 | False     | False     | Laptop tidak boleh dipinjam |
 
-### Case 4 — Memilih Transportasi (OR)
+## Case 4 — Memilih Transportasi (OR)
 
-| Naik Motor | Naik Bus | Hasil |
-| True | True | Bisa pergi ke kampus |
-| True | False | Bisa pergi ke kampus |
-| False | True | Bisa pergi ke kampus |
-| False | False | Tidak bisa pergi |
+| Naik Motor | Naik Bus | Hasil                |
+| True       | True     | Bisa pergi ke kampus |
+| True       | False    | Bisa pergi ke kampus |
+| False      | True     | Bisa pergi ke kampus |
+| False      | False    | Tidak bisa pergi     |
 
-### Case 5 — Membayar Makanan (OR)
+## Case 5 — Membayar Makanan (OR)
 
-| Uang Tunai | Saldo QRIS | Hasil |
-|---|---|---|
-| True | True | Bisa membeli makanan |
-| True | False | Bisa membeli makanan |
-| False | True | Bisa membeli makanan |
-| False | False | Tidak bisa membeli makanan |
+| Uang Tunai | Saldo QRIS | Hasil                      |
+| True       | True       | Bisa membeli makanan       |
+| True       | False      | Bisa membeli makanan       |
+| False      | True       | Bisa membeli makanan       |
+| False      | False      | Tidak bisa membeli makanan |
 
-### Case 6 — Menghubungi Teman (OR)
+## Case 6 — Menghubungi Teman (OR)
 
-| Ada Pulsa | Ada WiFi | Hasil |
-|---|---|---|
-| True | True | Bisa menghubungi teman |
-| True | False | Bisa menghubungi teman |
-| False | True | Bisa menghubungi teman |
-| False | False | Tidak bisa menghubungi teman |
+| Ada Pulsa | Ada WiFi | Hasil                        |
+| True      | True     | Bisa menghubungi teman       |
+| True      | False    | Bisa menghubungi teman       |
+| False     | True     | Bisa menghubungi teman       |
+| False     | False    | Tidak bisa menghubungi teman |
 
-### Case 7 — Memilih Minuman (XOR)
+## Case 7 — Memilih Minuman (XOR)
 
-| Teh | Kopi | Hasil |
-|---|---|---|
-| True | True | Pilihan tidak sesuai |
-| True | False | Memilih satu minuman |
-| False | True | Memilih satu minuman |
+| Teh   | Kopi  | Hasil                |
+| True  | True  | Pilihan tidak sesuai |
+| True  | False | Memilih satu minuman |
+| False | True  | Memilih satu minuman |
 | False | False | Pilihan tidak sesuai |
 
-### Case 8 — Memilih Kendaraan (XOR)
+## Case 8 — Memilih Kendaraan (XOR)
 
-| Motor | Sepeda | Hasil |
-|---|---|---|
-| True | True | Harus memilih salah satu |
-| True | False | Memilih satu kendaraan |
-| False | True | Memilih satu kendaraan |
-| False | False | Harus memilih salah satu |
+| Motor | Sepeda | Hasil                    |
+| True  | True   | Harus memilih salah satu |
+| True  | False  | Memilih satu kendaraan   |
+| False | True   | Memilih satu kendaraan   |
+| False | False  | Harus memilih salah satu |
